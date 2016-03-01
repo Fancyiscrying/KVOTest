@@ -13,6 +13,7 @@
 		B1FB63251C8569B20066E193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FB63231C8569B20066E193 /* Main.storyboard */; };
 		B1FB63271C8569B20066E193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FB63261C8569B20066E193 /* Assets.xcassets */; };
 		B1FB632A1C8569B20066E193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FB63281C8569B20066E193 /* LaunchScreen.storyboard */; };
+		B1FB63331C856AEC0066E193 /* AppStatusWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FB63321C856AEC0066E193 /* AppStatusWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B1FB63261C8569B20066E193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FB63291C8569B20066E193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1FB632B1C8569B20066E193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1FB63311C856AEC0066E193 /* AppStatusWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatusWatcher.h; sourceTree = "<group>"; };
+		B1FB63321C856AEC0066E193 /* AppStatusWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatusWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B1FB631E1C8569B20066E193 /* AppDelegate.m */,
 				B1FB63201C8569B20066E193 /* ViewController.h */,
 				B1FB63211C8569B20066E193 /* ViewController.m */,
+				B1FB63311C856AEC0066E193 /* AppStatusWatcher.h */,
+				B1FB63321C856AEC0066E193 /* AppStatusWatcher.m */,
 				B1FB63231C8569B20066E193 /* Main.storyboard */,
 				B1FB63261C8569B20066E193 /* Assets.xcassets */,
 				B1FB63281C8569B20066E193 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1FB63331C856AEC0066E193 /* AppStatusWatcher.m in Sources */,
 				B1FB63221C8569B20066E193 /* ViewController.m in Sources */,
 				B1FB631F1C8569B20066E193 /* AppDelegate.m in Sources */,
 				B1FB631C1C8569B20066E193 /* main.m in Sources */,
